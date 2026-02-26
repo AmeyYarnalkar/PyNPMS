@@ -8,21 +8,13 @@ Goal: Stop feeling lost when you see a dataset.
 
 * Series vs DataFrame
 * Reading data
-  `read_csv`, `read_excel`, basic loading
+  `read_csv`, `read_excel`, basic loading, handling json file
 * Inspecting data
   `head()`, `info()`, `describe()`, `shape`, `columns`
 * Selecting data
   `loc`, `iloc`, column selection
 * Filtering rows (conditions)
 
-**ML reason:**
-You must quickly extract features and labels without confusion.
-
-👉 Practice:
-
-* Select specific columns
-* Filter rows based on condition
-* Create a new column from existing ones
 
 ---
 
@@ -38,15 +30,6 @@ Real datasets are messy. This is 70% of real work.
 * Renaming columns
 * Type conversion
   `astype()`
-
-**ML reason:**
-Models break when data isn’t clean. Simple as that.
-
-👉 Practice:
-
-* Fill missing values with mean/median
-* Replace invalid values
-* Convert categorical columns to numeric
 
 ---
 
@@ -66,13 +49,6 @@ This is where pandas becomes powerful.
 
 **ML reason:**
 Better features = better models. Period.
-
-👉 Practice:
-
-* Convert categories into numbers
-* Normalize a column
-* Create interaction features
-
 ---
 
 ##  Phase 4 — Grouping & Aggregation (Important)
@@ -139,23 +115,6 @@ Skip or lightly skim:
 * Very complex pivot tables
 
 Those are analyst-heavy topics, not ML essentials.
-
----
-
-## 🧪 Mini Projects (Do These)
-
-### Project 1 — Data Cleaning Pipeline
-
-* Load messy CSV
-* Handle nulls
-* Encode categories
-* Output clean dataset
-
-### Project 2 — Feature Engineering
-
-* Create new columns
-* Aggregate by group
-* Prepare final training matrix
 
 ---
 
