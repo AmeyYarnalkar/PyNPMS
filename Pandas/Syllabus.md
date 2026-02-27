@@ -192,7 +192,6 @@ Understanding:
 * `set_index()`
 * `reset_index()`
 * Selecting & slicing hierarchical index
-* MultiIndex from `concat(keys=...)`
 
 ---
 
